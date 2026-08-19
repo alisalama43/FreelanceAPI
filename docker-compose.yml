@@ -1,0 +1,6 @@
+services:
+  freelanceapi:
+    image: ${DOCKER_REGISTRY-}freelanceapi
+    build:
+      context: .
+      dockerfile: FreelanceAPI/Dockerfile
